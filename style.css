@@ -36,3 +36,35 @@ h1{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
 }
+
+
+/*mid*/
+
+#mid{
+    display: flex;
+    margin-top: 50px;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.mid-left{
+    width: 60%;
+}
+.mid-right{
+    width: 50%;
+    padding: 20px;
+}
+.mid-left img{
+    width: 70%;
+    
+}
+.mid-link{
+    text-decoration: none;
+    background-color: brown;
+    background-image: linear-gradient(brown,red);
+    padding: 10px 30px;
+    color: white;
+    font-weight: 800;
+    font-size: 20px;
+    border-radius: 5%;
+}
