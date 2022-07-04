@@ -1,0 +1,38 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-size: 50px;
+}
+.color-rafi{
+    color: brown;
+}
+#header{
+    display:flex;
+}
+.header-right{
+    width: 50%;
+}
+.header-left{
+    width: 50%;
+    padding-left: 5%;
+    padding-top: 5%;
+}
+.header-right img{
+    width: 80%;
+}
+.link-button{
+    text-decoration: none;
+    background-color: brown;
+    padding: 12px 20px ;
+    border-radius: 6%;
+    color: white;
+    font-weight: 800;
+    background-image: linear-gradient(brown,red);
+}
+#header{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
